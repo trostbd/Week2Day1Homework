@@ -20,7 +20,7 @@ public class ThroughBundle extends AppCompatActivity
         color = findViewById(R.id.etColorEdit3);
         engine = findViewById(R.id.etEngineEdit3);
         transmissionType = findViewById(R.id.etTransmissionEdit3);
-        titleStatus = findViewById(R.id.etTransmissionEdit3);
+        titleStatus = findViewById(R.id.etTitleEdit3);
     }
 
     public void onClick(View view)

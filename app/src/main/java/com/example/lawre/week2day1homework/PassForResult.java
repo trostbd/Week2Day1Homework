@@ -19,7 +19,7 @@ public class PassForResult extends AppCompatActivity
         color = findViewById(R.id.etColorEdit2);
         engine = findViewById(R.id.etEngineEdit2);
         transmissionType = findViewById(R.id.etTransmissionEdit2);
-        titleStatus = findViewById(R.id.etTransmissionEdit2);
+        titleStatus = findViewById(R.id.etTitleEdit2);
     }
 
     public void onClick(View view)
