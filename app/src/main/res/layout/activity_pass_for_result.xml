@@ -84,18 +84,6 @@
         />
 
     <TextView
-        android:id="@+id/tvTitle2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/titlestat" />
-
-    <EditText
-        android:id="@+id/etTitleEdit2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="" />
-
-    <TextView
         android:id="@+id/tvTransmission2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -103,6 +91,18 @@
 
     <EditText
         android:id="@+id/etTransmissionEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titlestat" />
+
+    <EditText
+        android:id="@+id/etTitleEdit2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="" />
