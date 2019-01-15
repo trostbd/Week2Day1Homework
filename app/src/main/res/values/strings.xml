@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Week2Day1Homework</string>
+    <string name="year">Insert Year</string>
+    <string name="make">Insert Make</string>
+    <string name="model">Insert Model</string>
+    <string name="color">Insert Color</string>
+    <string name="engine">Insert Engine</string>
+    <string name="transmission">Insert Transmission</string>
+    <string name="titlestat">Insert Title Status</string>
+    <string name="forresult">Pass for Result</string>
+    <string name="bundle">Pass through Bundle</string>
+</resources>
