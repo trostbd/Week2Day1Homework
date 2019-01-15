@@ -29,6 +29,17 @@ public class MainActivity extends AppCompatActivity
         engine = findViewById(R.id.tvEngine);
         transmissionType = findViewById(R.id.tvTransmission);
         titleStatus = findViewById(R.id.tvTitle);
+        if(getIntent().getExtras()!= null)
+        {
+            Bundle myBundle = getIntent().getExtras();
+            year.setText(myBundle.get("year").toString());
+            make.setText(myBundle.getString("make").toString());
+            model.setText(myBundle.getString("model").toString());
+            color.setText(myBundle.getString("color").toString());
+            engine.setText(myBundle.getString("engine").toString());
+            transmissionType.setText(myBundle.getString("transmission").toString());
+            titleStatus.setText(myBundle.getString("title").toString());
+        }
         myPrefs = getSharedPreferences("sharedPref", Context.MODE_PRIVATE);
         SharedPreferences.Editor myEditor = myPrefs.edit();
         myEditor.putString("make",make.getText().toString());
